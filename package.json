@@ -1,0 +1,21 @@
+{
+  "name": "test-app",
+  "version": "1.0.0",
+  "description": "Hello World!",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "make": "electron-forge make"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@electron-forge/cli": "^6.0.0-beta.63",
+    "electron": "^18.0.4"
+  },
+  "dependencies": {
+    "@electron-forge/maker-zip": "^6.0.0-beta.63",
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "ffmpeg-static-electron": "^2.0.3"
+  }
+}
